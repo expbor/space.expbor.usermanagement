@@ -1,0 +1,22 @@
+
+
+GET http://localhost:4004/odata/v4/user-management/User
+### 
+GET http://localhost:4004/odata/v4/user-management/User('1')
+### 
+POST http://localhost:4004/odata/v4/user-management/User
+Content-Type: application/json
+
+{ "ID": "2", "email": "2@2.de", "password": "abcdef", "active": true, "confirmationCode": "ABCDE", "creationTimeConfirmationCode": "2021-06-27T14:52:23Z" }
+###
+DELETE http://localhost:4004/odata/v4/user-management/User('2')
+###
+PATCH http://localhost:4004/odata/v4/user-management/User('2')
+Content-Type: application/json
+
+{ "confirmationCode": "ABCDEF" }
+###
+PUT http://localhost:4004/odata/v4/user-management/User('2')
+Content-Type: application/json
+
+{ "ID": "2", "email": "2@2.de", "password": "abcdef", "active": true, "confirmationCode": "ABCDE", "creationTimeConfirmationCode": "2021-06-27T14:52:23Z" }
