@@ -11,10 +11,12 @@
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
-    "@cap-js/cds-types": "^0.6"
+    "@cap-js/cds-types": "^0.6",
+    "@sap/ux-specification": "UI5-1.129"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "watch-usermanagement": "cds watch --open usermanagement/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
     "requires": {
@@ -25,5 +27,8 @@
         }
       }
     }
-  }
+  },
+  "sapux": [
+    "app/usermanagement"
+  ]
 }
