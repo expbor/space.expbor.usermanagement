@@ -1,25 +1,23 @@
-# Getting Started
+# Usermanagement
 
-Welcome to your new project.
+## Description
 
-It contains these folders and files, following our recommended project layout:
+- This app enables Usermanagement.
+- Entries can be created, deleted and updated. 
+- Draft is supported.
+- Entries can be exported as Excel
+- Variants can be saved
 
-File or Folder | Purpose
----------|----------
-`app/` | content for UI frontends goes here
-`db/` | your domain models and data go here
-`srv/` | your service models and code go here
-`package.json` | project metadata and configuration
-`readme.md` | this getting started guide
+![grafik](https://github.com/user-attachments/assets/4016bb41-b6cd-4389-bb13-ac02fae0aa42)
 
+![grafik](https://github.com/user-attachments/assets/51e814f8-d953-40a9-8dae-bfbe75513c86)
 
-## Next Steps
-
-- Open a new terminal and run `cds watch`
-- (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
-- Start adding content, for example, a [db/schema.cds](db/schema.cds).
+![grafik](https://github.com/user-attachments/assets/75754721-6e41-4847-8805-2c119c27f642)
 
 
-## Learn More
 
-Learn more at https://cap.cloud.sap/docs/get-started/.
+## Run the App
+
+```sh
+npm run watch-usermanagement
+```
