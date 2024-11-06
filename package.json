@@ -17,7 +17,8 @@
   },
   "scripts": {
     "start": "cds-serve",
-    "watch-usermanagement": "cds watch --open usermanagement/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-usermanagement": "cds watch --open usermanagement/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-login": "cds watch --open login/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
     "requires": {

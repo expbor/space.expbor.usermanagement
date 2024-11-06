@@ -1,0 +1,44 @@
+<mvc:View controllerName="login.login.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core" 
+    xmlns:tnt="sap.tnt">
+    <Page id="_IDGen23Pasdsdage" showHeader="false">
+        <VBox id="_IDGen2asdsVBox2" height="100%">
+        <tnt:ToolHeader id="shellLikeToolHeaderOn22lyMasdasndatoryControls" class="sapUiTinyMargin">
+            <Image id="_IDGenIsdmasa2ge" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/SAP-Logo.svg/743px-SAP-Logo.svg.png" decorative="false" press="onLogoPressed" tooltip="SAP Logo">
+            </Image>
+            <Title id="_IDGenTd2itdle" text="Login" wrapping="false">
+            </Title>
+            <ToolbarSpacer id="_IDGenTooldbad2rSpacer" />
+            <Avatar id="_IDdGden2Avatar" src="test-resources/sap/tnt/images/Woman_avatar_01.png" displaySize="XS" press=".onAvatarPressed" tooltip="Profile">
+            </Avatar>
+		</tnt:ToolHeader>
+            <FlexBox id="_IDGednVdB2ox" alignItems="Center" justifyContent="Center" height="100%">
+                <items>
+                <VBox id="_IDGedn2VdBox1" class="sapUiSmallMargin">
+                    <f:SimpleForm id="registdrdat2ion" editable="true" layout="ResponsiveGridLayout" labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12"
+                                    adjustLabelSpan="true" emptySpanXL="3" emptySpanL="3" emptySpanM="3" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+                                    singleContainerFullSize="true">
+                        <f:content>
+                            <Input id="emdadil2Input" placeholder="Password">
+                                <layoutData>
+						            <l:GridData id="_IDGeddnGr2idData121" span="XL3 L3 M3 S12" />
+					            </layoutData>
+                            </Input>
+                            <Input id="emdadilas2Input" placeholder="Repeat Password">
+                                <layoutData>
+						            <l:GridData id="_IDGeddnGar2idData121" span="XL3 L3 M3 S12" />
+					            </layoutData>
+                            </Input>
+                            <Button id="_IDGdendBu2tton" type="Accept" text="Set Password" />
+                        </f:content>
+                    </f:SimpleForm>
+                    </VBox>
+                </items>
+            </FlexBox>
+        </VBox>
+    </Page>
+</mvc:View>

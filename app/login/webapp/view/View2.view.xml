@@ -1,0 +1,49 @@
+<mvc:View controllerName="login.login.controller.View2"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core" 
+    xmlns:tnt="sap.tnt">
+    <Page id="_IDGenPage1" showHeader="false">
+        <VBox id="_IDGenVBox21" height="100%">
+        <tnt:ToolHeader id="shellLikeToolHeaderOnlyMandatoryControls1" class="sapUiTinyMargin">
+            <Image id="_IDGenImage1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/SAP-Logo.svg/743px-SAP-Logo.svg.png" decorative="false" press="onLogoPressed" tooltip="SAP Logo">
+            </Image>
+            <Title id="_IDGenTitle1" text="Login" wrapping="false">
+            </Title>
+            <ToolbarSpacer id="_IDGenToolbarSpacer1" />
+            <Avatar id="_IDGenAvatar1" src="test-resources/sap/tnt/images/Woman_avatar_01.png" displaySize="XS" press=".onAvatarPressed" tooltip="Profile">
+            </Avatar>
+		</tnt:ToolHeader>
+            <FlexBox id="_IDGenVBox111" alignItems="Center" justifyContent="Center" height="100%">
+                <items>
+                <VBox id="_IDGenVBox11" class="sapUiSmallMargin">
+                    <f:SimpleForm id="registration1" editable="true" layout="ResponsiveGridLayout" labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12"
+                                    adjustLabelSpan="true" emptySpanXL="3" emptySpanL="3" emptySpanM="3" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+                                    singleContainerFullSize="true">
+                        <f:content>
+                            <Input id="emailInput1" placeholder="Enter Email">
+                                <layoutData>
+						            <l:GridData id="_IDGenGridData1" span="XL3 L3 M3 S12" />
+					            </layoutData>
+                            </Input>
+                            <Input id="passwordInput1" type="Password" placeholder="Enter password">
+                                <layoutData>
+						            <l:GridData id="_IDGenGridData24" span="XL3 L3 M3 S12" />
+					            </layoutData>
+                            </Input>
+                            <Input id="passwordInput2" type="Password" placeholder="Repeat password">
+                                <layoutData>
+						            <l:GridData id="_IDGenGridData211" span="XL3 L3 M3 S12" />
+					            </layoutData>
+                            </Input>
+                            <Button id="_IDGenButton1" type="Accept" text="Create Account" />
+                        </f:content>
+                    </f:SimpleForm>
+                    </VBox>
+                </items>
+            </FlexBox>
+        </VBox>
+    </Page>
+</mvc:View>
