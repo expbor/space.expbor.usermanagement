@@ -1,4 +1,4 @@
-<mvc:View controllerName="login.login.controller.View2"
+<mvc:View controllerName="login.login.controller.View1"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m"
     xmlns:l="sap.ui.layout"
