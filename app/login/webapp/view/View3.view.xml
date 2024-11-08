@@ -3,19 +3,9 @@
     xmlns="sap.m"
     xmlns:l="sap.ui.layout"
 	xmlns:f="sap.ui.layout.form"
-    xmlns:core="sap.ui.core" 
-    xmlns:tnt="sap.tnt">
-    <Page id="_IDGen23Page" showHeader="false">
+    xmlns:core="sap.ui.core">
+    <Page id="_IDGen23Page" showHeader="true">
         <VBox id="_IDGen2VBox2" height="100%">
-        <tnt:ToolHeader id="shellLikeToolHeaderOn22lyMandatoryControls" class="sapUiTinyMargin">
-            <Image id="_IDGenIma2ge" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/SAP-Logo.svg/743px-SAP-Logo.svg.png" decorative="false" press="onLogoPressed" tooltip="SAP Logo">
-            </Image>
-            <Title id="_IDGenT2itle" text="Login" wrapping="false">
-            </Title>
-            <ToolbarSpacer id="_IDGenToolba2rSpacer" />
-            <Avatar id="_IDGen2Avatar" src="test-resources/sap/tnt/images/Woman_avatar_01.png" displaySize="XS" press=".onAvatarPressed" tooltip="Profile">
-            </Avatar>
-		</tnt:ToolHeader>
             <FlexBox id="_IDGenVB2ox" alignItems="Center" justifyContent="Center" height="100%">
                 <items>
                 <VBox id="_IDGen2VBox1" class="sapUiSmallMargin">
