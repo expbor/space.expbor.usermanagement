@@ -9,12 +9,17 @@ server:
     - name: fiori-tools-proxy
       afterMiddleware: compression
       configuration:
-        ignoreCertError: false # If set to true, certificate errors will be ignored. E.g. self-signed certificates will be accepted
-        ui5:
-          path:
-            - /resources
-            - /test-resources
-          url: https://sapui5.hana.ondemand.com
+        backend:
+        - path: /resources
+          url: https://ui5.sap.com
+        - path: /test-resources
+          url: https://ui5.sap.com
+        - path: /odata
+          url: http://localhost:4004
+    - name: ui5-tooling-modules-middleware
+      afterMiddleware: compression
+      configuration:
+        addToNamespace: true
     - name: fiori-tools-appreload
       afterMiddleware: compression
       configuration:

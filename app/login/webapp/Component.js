@@ -3,10 +3,10 @@
  */
 
 sap.ui.define([
-        "sap/ui/core/UIComponent",
-        "sap/ui/Device",
-        "login/login/model/models"
-    ],
+    "sap/ui/core/UIComponent",
+    "sap/ui/Device",
+    "login/login/model/models"
+],
     function (UIComponent, Device, models) {
         "use strict";
 
@@ -29,7 +29,10 @@ sap.ui.define([
 
                 // set the device model
                 this.setModel(models.createDeviceModel(), "device");
+
             }
+            
         });
     }
 );
+

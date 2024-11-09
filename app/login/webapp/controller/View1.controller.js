@@ -5,8 +5,12 @@ function (Controller) {
     "use strict";
 
     return Controller.extend("login.login.controller.View1", {
-        onInit: function () {
+        onBeforeRendering(){
 
+       
+        },
+        onInit: function() {
+            
         }
     });
 });
