@@ -10,7 +10,7 @@ sap.ui.define([
     function (UIComponent, Device, models) {
         "use strict";
 
-        return UIComponent.extend("login.login.Component", {
+        return UIComponent.extend("login.Component", {
             metadata: {
                 manifest: "json"
             },

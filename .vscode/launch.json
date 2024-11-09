@@ -108,7 +108,7 @@
         ],
         "args": [
             "--open",
-            "test/flpSandbox.html#loginlogin-display"
+            "test/flpSandbox.html#login-display"
         ],
         "console": "internalConsole",
         "internalConsoleOptions": "openOnSessionStart",
@@ -135,7 +135,7 @@
             "--config",
             "./ui5-local.yaml",
             "--open",
-            "test/flpSandbox.html#loginlogin-display"
+            "test/flpSandbox.html#login-display"
         ],
         "console": "internalConsole",
         "internalConsoleOptions": "openOnSessionStart",
@@ -161,7 +161,7 @@
             "--config",
             "./ui5-mock.yaml",
             "--open",
-            "test/flpSandbox.html#loginlogin-display"
+            "test/flpSandbox.html#login-display"
         ],
         "console": "internalConsole",
         "internalConsoleOptions": "openOnSessionStart",

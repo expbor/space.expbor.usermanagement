@@ -1,7 +1,7 @@
 {
   "_version": "1.65.0",
   "sap.app": {
-    "id": "login.login",
+    "id": "login",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -59,7 +59,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "login.login.i18n.i18n"
+          "bundleName": "login.i18n.i18n"
         }
       },
       "": {
@@ -84,7 +84,7 @@
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
         "async": true,
-        "viewPath": "login.login.view",
+        "viewPath": "login.view",
         "controlAggregation": "pages",
         "controlId": "app",
         "clearControlAggregation": false
@@ -109,7 +109,7 @@
       }
     },
     "rootView": {
-      "viewName": "login.login.view.App",
+      "viewName": "login.view.App",
       "type": "XML",
       "async": true,
       "id": "App"

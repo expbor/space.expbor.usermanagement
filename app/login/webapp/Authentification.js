@@ -1,4 +1,4 @@
-sap.ui.define("login.login.Authentification", 
+sap.ui.define("login.Authentification", 
     [
         "keycloak-js/lib/keycloak"
     ], function (Keycloakjs) {

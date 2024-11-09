@@ -4,7 +4,7 @@ sap.ui.define([
 function (Controller) {
     "use strict";
 
-    return Controller.extend("login.login.controller.View1", {
+    return Controller.extend("login.controller.View1", {
         onBeforeRendering(){
 
        
