@@ -18,7 +18,7 @@
 						            <l:GridData id="_IDGenGridData1" span="XL3 L3 M3 S12" />
 					            </layoutData>
                             </Input>
-                            <Input id="_IDGenInput3" type="" placeholder="Enter password">
+                            <Input id="_IDGenInput3" type="Password" placeholder="Enter password">
                                 <layoutData>
 						            <l:GridData id="_IDGenGridData24" span="XL3 L3 M3 S12" />
 					            </layoutData>
