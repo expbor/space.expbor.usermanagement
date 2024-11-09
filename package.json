@@ -32,6 +32,7 @@
     }
   },
   "sapux": [
-    "app/usermanagement"
+    "app/usermanagement",
+    "app/login"
   ]
 }

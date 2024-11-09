@@ -27,17 +27,14 @@
     },
     "crossNavigation": {
       "inbounds": {
-        "intent1": {
+        "user-edit": {
+          "semanticObject": "user",
+          "action": "edit",
+          "title": "{{flpTitle}}",
           "signature": {
             "parameters": {},
             "additionalParameters": "allowed"
-          },
-          "semanticObject": "User",
-          "action": "manage",
-          "title": "{{appTitle}}",
-          "info": "{{appInfo}}",
-          "subTitle": "{{appSubTitle}}",
-          "icon": "sap-icon://user-edit"
+          }
         }
       }
     }
