@@ -8,14 +8,15 @@
     "sapui5"
   ],
   "main": "webapp/index.html",
+  "dependencies": {
+    "keycloak-js": "^26.0.5"
+  },
   "devDependencies": {
     "@ui5/cli": "^3.11.4",
     "@sap/ux-ui5-tooling": "^1.15.4",
     "ui5-tooling-modules": "^3.18.4"
   },
-  "dependencies": {
-    "keycloak-js": "^26.0.5"
-  },
+
   "ui5": {
     "dependencies": [
       "ui5-tooling-modules",
